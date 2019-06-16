@@ -25,7 +25,7 @@ fi
 ###lsof -i :443
 
 apt update
-apt dist-upgrade 
+apt dist-upgrade -y
 apt install build-essential pkg-config libgnutls28-dev libwrap0-dev libpam0g-dev libseccomp-dev libreadline-dev libnl-route-3-dev -y
 apt install ocserv -y
 
